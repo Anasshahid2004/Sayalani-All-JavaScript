@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Dom</title>
+</head>
+
+<body>
+    <!-- <script>
+        function rainbowify(){
+            let divs = document.getElementsByTagName("div");
+            console.log(divs)
+            for(let i = 0; i < divs.length; i++){
+                divs[i].style.backgroundColor = divs[i].id
+            }
+        }
+    </script> -->
+
+    <!-- <style>
+        div{
+            height: 30px;
+            width: 30px;
+            background-color: rgb(168, 17, 17);
+        }
+    </style>
+    <div id="red"></div>
+    <div id="orange"></div>
+    <div id="yellow"></div>
+    <div id="green"></div>
+    <div id="blue"></div>
+    <div id="indigo"></div>
+    <div id="violet"></div>
+    <button onclick="rainbowify()">Make me a rainbow</button>
+    <script>
+        function disappear() {
+            document.getElementById("shape").classList.add("hide");
+        }
+    </script>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .square {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+
+        .square.blue {
+            background-color: blue;
+        }
+        .hide {
+            background-color: rgb(162, 0, 255);
+        }
+    </style>
+    <div id="shape" class="square blue"></div>
+<
+    <button onclick="disappear()">Change!</button>
+    <div id="shape" class="square"></div>
+    <button onclick="changeAttr()">Change attributes...</button>
+    <h1>DOM</h1>
+    <h3>Document Object Model.</h3>
+    <h2>What is the DOM?</h2>
+    <p id="magic">DOM stands for Document Object Model. It is a programming interface that allows us to create, change,
+        or remove
+        elements from the document. We can also add events to these elements to make our page more dynamic.
+        The DOM views an HTML document as a tree of nodes. A node represents an HTML element.
+        Let's take a look at this HTML code to better understand the DOM tree structure. <br>
+        Our document is called the root node and contains one child node which is the element. The element contains two
+        children which are the and elements.
+        Both the and elements have children of their own. Here is another way to visualize this tree of nodes.
+    </p>
+    <button id="one" onclick="rainbowify()">Don't click</button>
+    <button id="b1" onclick="toggleDisplay()">Button1</button>
+    <button id="b2" onclick="stop(this)">Button2</button>
+    <table style="cursor: pointer;" id="html">
+        <tbody>
+            <tr></tr>
+            <th></th>
+        </tbody>
+    </table>
+    <div id="message"></div> -->
+    <!-- <div id="square" style="width: 100px;height:100px;background-color:aqua"></div>
+   
+        <button onclick="addRandomNumber()">Add a Number</button> -->
+        <!-- <h1>Friends List</h1>
+    <input type="text" id="friendName" placeholder="Enter a friend's name">
+    <button id="addFriend">Add Friend</button>
+    <table id="friendTable">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Votes</th>
+            </tr>
+        </thead>
+        <tbody id="friendList">
+        </tbody>
+    </table> -->
+    <input type="text" style="margin: 10px -7px 10px 515px ;" id="friendNameInput" placeholder="Enter a friend's name">
+    <button id="addFriendButton">Add Friend</button>
+    <div id="outputArea">
+        <table>
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Name</th>
+                    <th>Votes per Click karna hn</th>
+                </tr>
+            </thead>
+            <tbody id="friendList">
+            </tbody>
+        </table>
+    </div>
+        <!-- <div class="btn">Click Me</div> -->
+    <script src="main.js"></script>
+</body>
+
+</html>
